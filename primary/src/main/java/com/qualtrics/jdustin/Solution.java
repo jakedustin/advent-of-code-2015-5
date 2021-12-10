@@ -29,7 +29,7 @@ public class Solution {
     Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
     String[] badSubstrings = { "ab", "cd", "pq", "xy" };
 
-    public Solution(ArrayList input) {
+    public Solution(ArrayList<String> input) {
         this.input = input;
     }
 
